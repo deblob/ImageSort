@@ -8,6 +8,7 @@ namespace ImageSort
     {
         static void Main(string[] args)
         {
+            // git test
             while( true )
             {
                 writeLine( "=== ImageSorter 0.2 ===", ConsoleColor.Green );
