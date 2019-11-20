@@ -20,8 +20,6 @@ namespace ImageSort
 
                 for( int i = 0; i < bmp.Width * bmp.Height; i++ )
                 {
-                    //Console.WriteLine( $"x: {i % bmp.Width}, y: {i / bmp.Width}" );
-
                     if ( bmp.PixelFormat == PixelFormat.Format24bppRgb )
                     {
                         byte b = Marshal.ReadByte( ptr );
